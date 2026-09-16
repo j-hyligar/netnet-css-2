@@ -94,3 +94,11 @@
   font-weight: 900;
   src: url('fonts/playfair-display-v39-latin-900italic.woff2') format('woff2');
 }
+
+@font-face {
+  font-display: swap;
+  font-family: 'Micro5';
+  font-style: normal;
+  font-weight: 400;
+  src: url('fonts/micro5-regular.ttf') format('truetype');
+}

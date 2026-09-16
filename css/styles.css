@@ -1,11 +1,11 @@
 :root {
-  --accent-color: #35748a;
+  --accent-color: #DE7F28;
   --bg-color: #ecddd7;
 }
 
 body {
   background-color: var(--bg-color);
-  font-family: Helvetica, Arial, sans-serif;
+  font-family: Playfair Display, Helvetica, Arial, sans-serif;
 }
 
 a {
@@ -16,10 +16,10 @@ a {
 p {
   max-width: 50ch;
   margin: 0 auto;
-  /* border: 1px dashed; */
+/*   border: 1px dashed; */
 
   font-weight: 100;
-  font-size: 1.3rem;
+  font-size: 1.1rem;
   line-height: 1.7rem;
   text-align: center;
 }
@@ -29,7 +29,7 @@ nav {
   justify-content: center;
 
   margin-top: 17px;
-  /* border: 1px dashed; */
+/*   border: 1px dashed; */
 }
 
 @media (max-width: 450px) {
@@ -56,7 +56,7 @@ footer img {
 
 .boxy-link {
   margin: 8px;
-  border: 1px solid;
+  border: 5px double;
   border-radius: 8px;
   padding: 10px;
 
@@ -78,12 +78,12 @@ footer img {
 
 #main-title {
   margin-top: 150px;
-  /* border: 1px dashed; */
+/*   border: 1px dashed; */
 
-  font-family: 'Playfair Display';
+  font-family: 'Micro5';
   font-weight: 900;
-  font-size: 48px;
-  font-style: italic;
+  font-size: 100px;
+  font-style: normal;
   text-align: center;
   color: var(--accent-color);
 
@@ -98,3 +98,4 @@ footer img {
     margin-top: 50px;
   }
 }
+
